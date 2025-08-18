@@ -1,0 +1,193 @@
+/* --- Corporate Blue Theme Variables --- */
+:root {
+    --primary-color: #1A237E; /* Navy Blue */
+    --secondary-color: #2196F3; /* Sky Blue */
+    --accent-color: #009688; /* Teal */
+    --background-color: #F5F5F5; /* Light Grey */
+    --text-color: #212121; /* Charcoal Black */
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    flex: 1;
+}
+
+/* --- Navbar & Header --- */
+.navbar-brand {
+    color: #fff !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+.bg-primary-dark {
+    background-color: var(--primary-color) !important;
+}
+.text-primary-dark {
+    color: var(--primary-color) !important;
+}
+.admin-link {
+    color: var(--accent-color) !important;
+    font-weight: bold;
+}
+
+/* --- Buttons --- */
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.btn-primary:hover {
+    background-color: #151c68;
+    border-color: #151c68;
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+.btn-secondary:hover {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+}
+
+.btn-accent {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: #fff;
+}
+.btn-accent:hover {
+    background-color: #00796b;
+    border-color: #00796b;
+    color: #fff;
+}
+
+/* --- Forms & Cards --- */
+.card {
+    border-radius: 0.75rem;
+}
+.card-header {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+}
+.form-control:focus, .form-select:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.25rem rgba(33, 150, 243, 0.25);
+}
+
+/* --- Multi-Step Form --- */
+.form-step {
+    display: none;
+}
+.form-step.active {
+    display: block;
+}
+
+/* --- Loader --- */
+#submitBtn .spinner-border {
+    margin-right: 0.5rem;
+}
+
+/* Custom primary color for the Hire AI theme */
+:root {
+    --bs-primary: #34495e;
+    --bs-primary-rgb: 52, 73, 94;
+    --primary-light: #5d7e9b;
+}
+
+.bg-primary-dark {
+    background-color: var(--bs-primary) !important;
+}
+
+.text-primary {
+    color: var(--bs-primary) !important;
+}
+
+.btn-primary {
+    background-color: var(--bs-primary);
+    border-color: var(--bs-primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-light);
+    border-color: var(--primary-light);
+}
+
+/* General body styling */
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* Navbar adjustments */
+.navbar-brand .fa-brain {
+    color: #2ecc71;
+}
+
+.navbar .nav-link:hover {
+    color: #ffffff;
+}
+
+.navbar .admin-link {
+    color: #f1c40f;
+}
+
+.navbar .admin-link:hover {
+    color: #e67e22;
+}
+
+/* Jumbotron (hero section) */
+.jumbotron {
+    background: linear-gradient(135deg, #ecf0f1, #bdc3c7);
+}
+
+.jumbotron .display-4 {
+    font-size: 2.5rem;
+}
+
+.jumbotron p.lead {
+    color: #7f8c8d;
+}
+
+/* Card and container styling */
+.card {
+    border: none;
+    border-radius: 1rem;
+}
+
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.portal-logo {
+    max-width: 100px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.portal-logo:hover {
+    filter: grayscale(0%);
+}
+
+/* Footer styling */
+footer {
+    border-top: 1px solid #e0e0e0;
+}
